@@ -1,4 +1,7 @@
 ## A Nike Landing Page built using TailWindCSS, Next JS, and TypeScript.
+![image](https://github.com/jagxman/Nike/assets/33289432/4c999f5c-2b8f-4b31-9b67-a8a215475ad3)
+
+
 
 
 The landing page is a stunning design to showcase the use of Tailwind CSS.
