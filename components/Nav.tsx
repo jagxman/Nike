@@ -23,6 +23,10 @@ const Nav = () => {
             </li>
           ))}
         </ul>
+
+        <div className="hidden max-lg:block">
+            <Image src={hamburger} alt="burger" width={25} height={25}/>
+        </div>
       </nav>
     </header>
   );
