@@ -1,4 +1,7 @@
 import Button from "@/components/Button";
+import { shoe8 } from "@/public/assets/images";
+import Image from "next/image";
+
 
 const SuperQuality = () => {
   return (
@@ -10,7 +13,6 @@ const SuperQuality = () => {
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
           We Provide You{" "}
           <span className="text-coral-red">Super</span>{" "}
-          <br></br>
           <span className="text-coral-red">Quality</span>{" "}
           Shoes
         </h2>
@@ -29,8 +31,11 @@ const SuperQuality = () => {
 
         <Button label="View Details" />
         </div>
+      </div>
 
-        
+      <div className="flex-1 flex justify-center items-center">
+        <Image src={shoe8} width={570} height={522} className="object-contain" alt="super"/>
+
       </div>
     </section>
   );
