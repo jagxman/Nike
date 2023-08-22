@@ -6,6 +6,7 @@ interface buttonProps {
   backgroundColor?: string;
   borderColor?: string;
   textColor?: string;
+  fullWidth: any;
 }
 
 const Button = ({
@@ -14,10 +15,11 @@ const Button = ({
   backgroundColor,
   borderColor,
   textColor,
+  fullWidth
 }: buttonProps) => {
   return (
     <button
-      className={`flex justify-center items-center gap-2 px-7 py-4 font-montserrat border text-lg leading-none rounded-full ${
+      className={`flex justify-center items-center gap-2 px-7 py-4 font-montserrat border text-lg leading-none rounded-full ${fullWidth && `w-full`} ${
         backgroundColor
           ? `${backgroundColor} ${borderColor} ${textColor}`
           : `bg-coral-red  text-white border-coral-red`
