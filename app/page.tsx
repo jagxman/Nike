@@ -45,7 +45,9 @@ export default function Home() {
         <Subscribe />
       </section>
 
-      <section className="bg-black padding-x padding-t pb-8">Footer</section>
+      <section className="bg-black padding-x padding-t pb-8">
+        <Footer/>
+      </section>
     </main>
   );
 }
